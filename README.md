@@ -1,7 +1,7 @@
 # WizComm_Blog_Asst_Django
 A Django Blog App with CRUD Functionality hosted on render with Postgres SQL Database wherein a user can create blogs with authentication mechanisms. 
 
-# Deployment SOP on Render
+# Render
 The App is deployed on Render which is a free app to provide basic infrastructure such as Postgres(configured in settings.py file), deployment server to interact with wsgi.py file. The build command ensures that requirements are downloaded as the part of initialisation. An important thing to note is project name which is django_project in this case.
 
 # Backend Overview
@@ -9,6 +9,11 @@ There is a user model associated with a post model with cascade delete option wh
 
 # Frontend Overview
 Frontend is created from bootstrap classes and is defined in templates and static folders at respective places. Additionally whitenoise is used for static file storage and can interact with any server within wsgi to provide static files.
+
+# Features
+1. Pagination
+2. Profile Pic for User
+3. User Registration and Login
 
 # Testing SOP on Local Server
 
